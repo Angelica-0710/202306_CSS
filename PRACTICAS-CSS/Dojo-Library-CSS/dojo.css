@@ -1,0 +1,96 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* estilo de boton favorito */
+.btn{
+    width: 150px;
+    background-color: rgb(226, 43, 217);
+    color: #fff;
+    border: 2px solid #470404;
+    box-shadow: 3px 3px black;
+}
+
+/* estilos de row y col */
+
+.row {
+    display: flex;
+}
+
+.col, .col-2, .col-3 {
+    margin: 10px;
+    padding: 10px;
+    background-color: cadetblue;
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
+
+/* ejemplo de la estructura y estilos de una barra de navegacion */
+.nav{
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-buttons{
+    display: flex;
+}
+
+.nav-links{
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-left: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+.nav-links li a:hover {
+    background: #17a2b8;
+}
+
+/* estilos para una tarjeta */
+
+.user-card{
+    margin: auto;
+    margin-top: 10px;
+    height:340px ;
+    width: 580px;
+    border: 4px solid #CCCCCC;
+    overflow: hidden;
+}
+
+
+.card-header{
+    background-color: #17a2b8;
+    height:90px ;
+}
+

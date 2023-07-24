@@ -1,0 +1,43 @@
+
+.nav{
+    display: flex;
+    background-color: rgb(87, 83, 83);
+    color: white;
+    font-family: 'roboto' , sans-serif;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-links{
+    display: flex;
+    list-style: none;
+    color: whitesmoke;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.nav-links>li{
+    margin: 6px;
+
+}
+
+.active{
+    color: white;
+}
+
+.btn{
+    background-color: skyblue;
+    color: white;
+    box-shadow: 5px 5px black;
+    border:3px solid black;
+    height: 35px;
+    width: 100px;
+
+
+}
+a:link{
+    text-decoration: none;
+    color: white;
+}

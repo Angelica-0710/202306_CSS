@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-btns{
+    display: flex;
+}
+
+.nav-links{
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-left: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+.nav-links li a:hover {
+    background: #17a2b8;
+}
+
+
+#sign_out{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: #17a2b8;
+    width: 100px;
+    height: 26px;
+}
+
+.container{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.columnas{
+    width:1000px ;
+    height: 650px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.columna1{
+    width: 600px;
+    height: 430px;
+    height:auto ;
+}
+
+
+
+.user-card{
+    margin: auto;
+    margin-top: 10px;
+    height:340px ;
+    width: 580px;
+    border: 4px solid #CCCCCC;
+    overflow: hidden;
+}
+
+
+.card-h{
+    background-color: #17a2b8;
+    height:90px ;
+}
+
+.jane-h{
+    border-radius: 50%;
+    border:  5px solid #CCCCCC;
+    height: 100px;
+    width: 100px;
+    margin-top: 45px;
+    margin-left: 40px;
+}
+
+.card-b{
+    padding: 50px;
+}
+
+.card-b h1, 
+.card-b h3,
+.card-b p {
+    margin: 10px 0px;
+}
+
+.map-i{
+    height: 25px;
+    width: 20px;
+}
+
+
+.gear-i{
+    height: 20px;
+    width: 20px;  
+
+}
+
+.education{
+    height: 170px;
+    width: 580px;
+    border: 4px solid #CCCCCC;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.nav-edu{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: auto;
+    
+}
+
+.nav-edu h3{
+    padding:  15px;
+}
+
+.education h4,
+.education p {
+    padding-left: 15px;
+    padding: 10px;
+}
+
+.columna2{
+    width: 320px;
+    height: 430px;
+    height:auto ;
+}
+
+.conecction{
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    border: 4px solid #CCCCCC;
+}
+
+.conect-nav{
+    height: 50px ;
+    width: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.conect-nav h3,
+.conect-nav button {
+    padding: 10px;
+    margin-left:10px ;
+}
+
+
+.conect-nav button{
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    margin-top: 5px;
+}
+
+.conect-i{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+.conect-b h3 {
+    padding: 10px;
+    
+}
+
+.your{
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    margin-top: 30px;
+    border: 4px solid #CCCCCC;
+}
+
+.your-nav{
+    height: 50px ;
+    width: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.your-nav h3,
+.your-nav button {
+    padding: 10px;
+    margin-left:10px ;
+}
+
+.your-nav button{
+    border-radius: 50%;
+    height: 30px;
+    width: 60px;
+    margin-top: 5px;
+}
+
+.your-b h3{
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.your-f{
+    height: 30px ;
+    border-top: 4px solid #CCCCCC;
+    align-items: center;
+}
+
+.your-f p {
+    padding: 10px;
+    
+}
+

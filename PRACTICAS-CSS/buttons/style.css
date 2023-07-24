@@ -1,0 +1,41 @@
+#container{
+    font-family: sans-serif;
+    font-weight:bolder;
+    text-align: center;
+}
+.boton1{
+    border: 2px solid lightskyblue;
+    border-color: lightskyblue;
+    border-radius: 40px;
+    background-color:whitesmoke;
+    color: lightskyblue;
+    width: 200px;
+    height: 30px;
+    padding-top: 9px;
+    margin: 16px;
+}
+
+
+.boton2{
+    background-color: rgb(61, 233, 224);
+    border: 2px solid rgb(61, 233, 224) ;
+    border-radius: 50%;
+    height: 25px;
+    width: 28px;
+    color: white;
+    padding: 7.5px;
+    margin: 16px;
+    
+    
+}
+.boton3{
+    background-color: rgb(34, 104, 196);
+    color: white;
+    border: 3px solid black;
+    width: 200px;
+    height: 30px;
+    padding-top: 9px;
+    margin: 16px;
+    box-shadow: 6px 6px 2px 1px black;
+
+}
